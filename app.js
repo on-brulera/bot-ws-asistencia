@@ -18,7 +18,7 @@ const flujoAsistencia = addKeyword(EVENTS.MEDIA)
     .addAction(async (ctx, { flowDynamic, provider }) => {
         //Verificar si el bot esta activo
         const elBotEstaActivo = verificarHoraAtencionDelBot();        
-        //if (!elBotEstaActivo) return;
+        if (!elBotEstaActivo) return;
 
         const jid = ctx.key.remoteJid
         const messageId = ctx.key.id
