@@ -1,0 +1,55 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '593979254049@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0148ACBC53282D6EFB7',
+    participant: undefined
+  },
+  messageTimestamp: 1745834532,
+  pushName: 'Henry Ramírez',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [],
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/11936590_1557295568300246_697455471159132904_n.enc?ccb=11-4&oh=01_Q5Aa1QEv0b2PfANER0wHg3Ge8-whJu2J0J3DJnjhPnExJsT0yg&oe=6835DD8B&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1200,
+      width: 540,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7118-24/11936590_1557295568300246_697455471159132904_n.enc?ccb=11-4&oh=01_Q5Aa1QEv0b2PfANER0wHg3Ge8-whJu2J0J3DJnjhPnExJsT0yg&oe=6835DD8B&_nc_sid=5e03e0&_nc_hot=1745772487',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      viewOnce: false
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_media__e13c3686-dc22-4daf-8b58-3b7872847b9c',
+  from: '593979254049'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a58a3274-bc40-4b14-adfe-b1d04ba467f1',
+  keyword: 'key_04f48b27-d999-41f2-bbf1-c18eaf3e00dd',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e0c23125cc59028ea911aa4b9d0827eb'
+}
